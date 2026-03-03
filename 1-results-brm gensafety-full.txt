@@ -1,0 +1,50 @@
+**************Personal Safety******************
+ Family: cumulative 
+  Links: mu = logit; disc = identity 
+Formula: PerSafetyn ~ Experience + Sex + SexOrient 
+   Data: gensafety (Number of observations: 200) 
+Samples: 4 chains, each with iter = 3000; warmup = 1500; thin = 5;
+         total post-warmup samples = 1200
+
+Population-Level Effects: 
+               Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+Intercept[1]      -0.37      0.28    -0.93     0.16 1.00     1308     1107
+Intercept[2]       2.74      0.43     1.98     3.63 1.01     1044      987
+Experience.L      -0.82      0.29    -1.37    -0.23 1.00     1311     1115
+Experience.Q      -0.22      0.28    -0.78     0.32 1.00     1296     1216
+SexMale           -1.51      0.34    -2.18    -0.85 1.00     1398     1215
+SexOrientLGBQA     0.26      0.41    -0.54     1.05 1.00     1075     1158
+
+Family Specific Parameters: 
+     Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+disc     1.00      0.00     1.00     1.00 1.00     1200     1200
+
+Samples were drawn using sampling(NUTS). For each parameter, Bulk_ESS
+and Tail_ESS are effective sample size measures, and Rhat is the potential
+scale reduction factor on split chains (at convergence, Rhat = 1).
+
+**************Changes to Personal Safety******************
+ Family: cumulative 
+  Links: mu = logit; disc = identity 
+Formula: Changesn ~ Experience + Sex + SexOrient 
+   Data: gensafety (Number of observations: 203) 
+Samples: 4 chains, each with iter = 3000; warmup = 1500; thin = 5;
+         total post-warmup samples = 1200
+
+Population-Level Effects: 
+               Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+Intercept[1]      -4.22      0.54    -5.34    -3.19 1.00     1253     1118
+Intercept[2]       0.48      0.26    -0.03     0.98 1.00     1166     1095
+Intercept[3]       1.00      0.28     0.46     1.52 1.00     1168     1162
+Experience.L      -0.39      0.29    -0.95     0.18 1.00     1225     1215
+Experience.Q      -0.23      0.27    -0.78     0.29 1.00     1295     1138
+SexMale           -0.51      0.32    -1.16     0.11 1.00     1226     1117
+SexOrientLGBQA    -0.45      0.44    -1.34     0.39 1.00     1224     1071
+
+Family Specific Parameters: 
+     Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+disc     1.00      0.00     1.00     1.00 1.00     1200     1200
+
+Samples were drawn using sampling(NUTS). For each parameter, Bulk_ESS
+and Tail_ESS are effective sample size measures, and Rhat is the potential
+scale reduction factor on split chains (at convergence, Rhat = 1).

@@ -1,0 +1,60 @@
+Safe******************************
+Analysis of Deviance Table (Type II tests)
+
+Response: Safe
+           LR Chisq Df Pr(>Chisq)  
+Sex            4.25  1      0.039 *
+Experience     4.68  2      0.097 .
+SexOrient      0.93  1      0.335  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Watched******************************
+Analysis of Deviance Table (Type II tests)
+
+Response: Watched
+           LR Chisq Df Pr(>Chisq)
+Sex           0.001  1       0.97
+Experience    1.763  2       0.41
+SexOrient     0.185  1       0.67
+
+Indifferent******************************
+Analysis of Deviance Table (Type II tests)
+
+Response: Indifferent
+           LR Chisq Df Pr(>Chisq)
+Sex           0.883  1       0.35
+Experience    1.367  2       0.50
+SexOrient     0.791  1       0.37
+
+Anxious******************************
+Analysis of Deviance Table (Type II tests)
+
+Response: Anxious
+           LR Chisq Df Pr(>Chisq)
+Sex           0.025  1       0.88
+Experience    0.178  2       0.91
+SexOrient     1.517  1       0.22
+
+At Risk******************************
+Analysis of Deviance Table (Type II tests)
+
+Response: AtRisk
+           LR Chisq Df Pr(>Chisq)  
+Sex            2.28  1      0.131  
+Experience     2.71  2      0.258  
+SexOrient      2.78  1      0.095 .
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Changes Vibe******************************
+Analysis of Deviance Table (Type II tests)
+
+Response: ChangesVibe
+           LR Chisq Df Pr(>Chisq)   
+Sex            3.56  1     0.0591 . 
+Experience     5.53  2     0.0630 . 
+SexOrient      8.33  1     0.0039 **
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+

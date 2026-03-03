@@ -1,0 +1,27 @@
+************** SAMPLE SUMMARY ********************
+      wave         Age2          Gender        Sex     
+ Min.   :1.00   18-24:70   Female   : 80   Female: 85  
+ 1st Qu.:1.00   25-34:57   Male     :124   Male  :125  
+ Median :1.00   35+  :89   Nonbinary: 10   NA's  :  6  
+ Mean   :1.12              NA's     :  2               
+ 3rd Qu.:1.00                                          
+ Max.   :2.00                                          
+        SexOrient  
+ Heterosexual:171  
+ LGBQA       : 43  
+ NA's        :  2  
+                   
+                   
+                   
+
+************** AGE x EXPERIENCE CORRELATION ******
+
+	Kendall's rank correlation tau
+
+data:  demog$Age2n and demog$Experiencen
+z = 4.7, p-value = 0.000001
+alternative hypothesis: true tau is greater than 0
+sample estimates:
+   tau 
+0.2917 
+

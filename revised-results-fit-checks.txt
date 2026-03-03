@@ -1,0 +1,66 @@
+************** SPECIFIC SAFETY CONCERNS **********
+Physical
+Warning: Probably bad model fit. Only about 75% of the residuals are inside the error bounds.
+
+Crowd Violence
+Ok: About 100% of the residuals are inside the error bounds.
+
+Sexual
+Warning: About 88% of the residuals are inside the error bounds (~95% or higher would be good).
+
+Terrorism
+Warning: About 88% of the residuals are inside the error bounds (~95% or higher would be good).
+
+Police
+Ok: About 100% of the residuals are inside the error bounds.
+
+Unwanted Security
+Ok: About 100% of the residuals are inside the error bounds.
+
+************** SAFETY MEASURES *******************
+Location
+Ok: About 100% of the residuals are inside the error bounds.
+
+Ethos/Vibe
+Warning: Probably bad model fit. Only about 78% of the residuals are inside the error bounds.
+
+Police
+Warning: About 88% of the residuals are inside the error bounds (~95% or higher would be good).
+
+Surveillance
+Warning: Probably bad model fit. Only about 75% of the residuals are inside the error bounds.
+
+Private Security
+Warning: About 89% of the residuals are inside the error bounds (~95% or higher would be good).
+
+Citizen Security
+Ok: About 100% of the residuals are inside the error bounds.
+
+Friends
+Warning: Probably bad model fit. Only about 78% of the residuals are inside the error bounds.
+
+Health Tents
+Warning: About 90% of the residuals are inside the error bounds (~95% or higher would be good).
+
+************** FEELINGS ABOUT SURVEILLANCE *******
+Safe
+Warning: About 88% of the residuals are inside the error bounds (~95% or higher would be good).
+
+Watched
+Ok: About 100% of the residuals are inside the error bounds.
+
+Indifferent
+Ok: About 100% of the residuals are inside the error bounds.
+
+Anxious
+Warning: About 89% of the residuals are inside the error bounds (~95% or higher would be good).
+
+At Risk
+Ok: About 100% of the residuals are inside the error bounds.
+
+Changes Vibe
+Warning: About 88% of the residuals are inside the error bounds (~95% or higher would be good).
+
+************** SURVEILLANCE BEHAVIOUR ************
+Notice change surveillance
+Ok: About 100% of the residuals are inside the error bounds.

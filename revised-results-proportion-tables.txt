@@ -1,0 +1,57 @@
+************** SAFETY CONCERNS ********************
+                  
+                      0    1
+  CrowdViolence    6480 3888
+  Physical         7968 2400
+  Police           7296 3072
+  Sexual           6960 3408
+  Terrorism        8016 2352
+  UnwantedSecurity 5616 4752
+                  
+                        0      1
+  CrowdViolence    0.6250 0.3750
+  Physical         0.7685 0.2315
+  Police           0.7037 0.2963
+  Sexual           0.6713 0.3287
+  Terrorism        0.7731 0.2269
+  UnwantedSecurity 0.5417 0.4583
+
+************** SAFETY MEASURES ********************
+              
+                  0    1
+  CitSecurity  4572 3204
+  EthosVibe    1044 6732
+  Friends      3060 4716
+  HealthTents  2988 4788
+  Location     4464 3312
+  Police       5868 1908
+  PvtSecurity  6336 1440
+  Surveillance 6120 1656
+              
+                    0      1
+  CitSecurity  0.5880 0.4120
+  EthosVibe    0.1343 0.8657
+  Friends      0.3935 0.6065
+  HealthTents  0.3843 0.6157
+  Location     0.5741 0.4259
+  Police       0.7546 0.2454
+  PvtSecurity  0.8148 0.1852
+  Surveillance 0.7870 0.2130
+
+************** FEELINGS ABOUT SURVEILLANCE ********
+             
+                 0    1
+  Anxious     7872 2496
+  AtRisk      7584 2784
+  ChangesVibe 4512 5856
+  Indifferent 7248 3120
+  Safe        6864 3504
+  Watched     5760 4608
+             
+                   0      1
+  Anxious     0.7593 0.2407
+  AtRisk      0.7315 0.2685
+  ChangesVibe 0.4352 0.5648
+  Indifferent 0.6991 0.3009
+  Safe        0.6620 0.3380
+  Watched     0.5556 0.4444

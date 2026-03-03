@@ -1,0 +1,88 @@
+Location******************************
+Weighted Means
+   1-2    3-5     6+ 
+0.4681 0.4412 0.4082 
+
+Female   Male 
+0.3929 0.4320 
+
+Heterosexual        LGBQA 
+      0.3977       0.5581 
+
+EthosVibe******************************
+Weighted Means
+   1-2    3-5     6+ 
+0.8936 0.7794 0.9082 
+
+Female   Male 
+ 0.869  0.872 
+
+Heterosexual        LGBQA 
+      0.8538       0.9070 
+
+Police******************************
+Weighted Means
+   1-2    3-5     6+ 
+0.2766 0.1765 0.2857 
+
+Female   Male 
+0.2976 0.2160 
+
+Heterosexual        LGBQA 
+      0.2632       0.1860 
+
+Surveillance******************************
+Weighted Means
+   1-2    3-5     6+ 
+0.2340 0.2794 0.1633 
+
+Female   Male 
+0.3333 0.1440 
+
+Heterosexual        LGBQA 
+      0.1988       0.2791 
+
+Private Security******************************
+Weighted Means
+   1-2    3-5     6+ 
+0.1702 0.1471 0.2245 
+
+Female   Male 
+0.2143 0.1680 
+
+Heterosexual        LGBQA 
+      0.1813       0.2093 
+
+Citizen Security******************************
+Weighted Means
+   1-2    3-5     6+ 
+0.5106 0.3529 0.3878 
+
+Female   Male 
+0.4643 0.3840 
+
+Heterosexual        LGBQA 
+      0.3860       0.4884 
+
+Friends******************************
+Weighted Means
+   1-2    3-5     6+ 
+0.7021 0.6618 0.5102 
+
+Female   Male 
+0.7262 0.5120 
+
+Heterosexual        LGBQA 
+      0.5614       0.7674 
+
+Health Tents******************************
+Weighted Means
+   1-2    3-5     6+ 
+0.6170 0.5882 0.6327 
+
+Female   Male 
+0.6905 0.5680 
+
+Heterosexual        LGBQA 
+      0.6023       0.6512 
+

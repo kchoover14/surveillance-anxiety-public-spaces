@@ -1,0 +1,84 @@
+# A tibble: 5 x 5
+  term           estimate std.error statistic p.value
+  <chr>             <dbl>     <dbl>     <dbl>   <dbl>
+1 (Intercept)      -0.877     0.286    -3.07  0.00214
+2 SexMale          -0.565     0.360    -1.57  0.116  
+3 Experience.L     -0.609     0.303    -2.01  0.0445 
+4 Experience.Q      0.226     0.307     0.736 0.462  
+5 SexOrientLGBQA    0.211     0.438     0.482 0.630  
+# A tibble: 5 x 5
+  term           estimate std.error statistic p.value
+  <chr>             <dbl>     <dbl>     <dbl>   <dbl>
+1 (Intercept)      0.0448     0.259    0.173  0.863  
+2 SexMale         -0.902      0.318   -2.84   0.00450
+3 Experience.L    -0.612      0.283   -2.16   0.0304 
+4 Experience.Q    -0.229      0.267   -0.857  0.392  
+5 SexOrientLGBQA   0.0395     0.407    0.0970 0.923  
+# A tibble: 5 x 5
+  term           estimate std.error statistic       p.value
+  <chr>             <dbl>     <dbl>     <dbl>         <dbl>
+1 (Intercept)       0.322     0.265     1.21  0.225        
+2 SexMale          -2.09      0.359    -5.81  0.00000000631
+3 Experience.L     -0.488     0.319    -1.53  0.126        
+4 Experience.Q      0.124     0.305     0.407 0.684        
+5 SexOrientLGBQA    0.231     0.440     0.525 0.599        
+# A tibble: 5 x 5
+  term           estimate std.error statistic p.value
+  <chr>             <dbl>     <dbl>     <dbl>   <dbl>
+1 (Intercept)     -0.848      0.278   -3.05   0.00226
+2 SexMale         -1.12       0.367   -3.05   0.00229
+3 Experience.L     0.0234     0.332    0.0707 0.944  
+4 Experience.Q     0.0871     0.318    0.274  0.784  
+5 SexOrientLGBQA   0.882      0.417    2.12   0.0341 
+# A tibble: 5 x 5
+  term           estimate std.error statistic  p.value
+  <chr>             <dbl>     <dbl>     <dbl>    <dbl>
+1 (Intercept)    -1.07        0.285   -3.74   0.000185
+2 SexMale        -0.00986     0.336   -0.0293 0.977   
+3 Experience.L    0.193       0.293    0.658  0.510   
+4 Experience.Q    0.358       0.301    1.19   0.234   
+5 SexOrientLGBQA  0.476       0.407    1.17   0.242   
+# A tibble: 5 x 5
+  term           estimate std.error statistic p.value
+  <chr>             <dbl>     <dbl>     <dbl>   <dbl>
+1 (Intercept)     -0.404      0.257    -1.57    0.116
+2 SexMale          0.143      0.304     0.470   0.639
+3 Experience.L     0.395      0.272     1.46    0.145
+4 Experience.Q     0.0491     0.261     0.188   0.851
+5 SexOrientLGBQA   0.344      0.386     0.891   0.373
+                 2.5 %   97.5 %
+(Intercept)    -1.4575 -0.33132
+SexMale        -1.2750  0.14202
+Experience.L   -1.2057 -0.01019
+Experience.Q   -0.3631  0.84791
+SexOrientLGBQA -0.6813  1.04665
+                 2.5 %   97.5 %
+(Intercept)    -0.4642  0.55640
+SexMale        -1.5308 -0.28253
+Experience.L   -1.1700 -0.05702
+Experience.Q   -0.7526  0.29899
+SexOrientLGBQA -0.7746  0.82842
+                 2.5 %  97.5 %
+(Intercept)    -0.1929  0.8511
+SexMale        -2.8139 -1.4005
+Experience.L   -1.1150  0.1414
+Experience.Q   -0.4671  0.7332
+SexOrientLGBQA -0.6442  1.0879
+                 2.5 %  97.5 %
+(Intercept)    -1.4096 -0.3161
+SexMale        -1.8552 -0.4077
+Experience.L   -0.6130  0.6970
+Experience.Q   -0.5276  0.7250
+SexOrientLGBQA  0.0527  1.6944
+                 2.5 %  97.5 %
+(Intercept)    -1.6484 -0.5245
+SexMale        -0.6657  0.6582
+Experience.L   -0.3690  0.7860
+Experience.Q   -0.2199  0.9667
+SexOrientLGBQA -0.3397  1.2665
+                 2.5 %  97.5 %
+(Intercept)    -0.9176 0.09505
+SexMale        -0.4521 0.74164
+Experience.L   -0.1307 0.93882
+Experience.Q   -0.4626 0.56348
+SexOrientLGBQA -0.4127 1.10866

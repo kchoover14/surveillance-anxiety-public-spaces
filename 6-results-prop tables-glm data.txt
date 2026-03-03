@@ -1,0 +1,23 @@
+                        0      1
+  CrowdViolence    0.6296 0.3704
+  Physical         0.7731 0.2269
+  Police           0.7037 0.2963
+  Sexual           0.6713 0.3287
+  Terrorism        0.7731 0.2269
+  UnwantedSecurity 0.5417 0.4583
+                    0      1
+  CitSecurity  0.5880 0.4120
+  EthosVibe    0.1343 0.8657
+  Friends      0.3935 0.6065
+  HealthTents  0.3843 0.6157
+  Location     0.5741 0.4259
+  Police       0.7546 0.2454
+  PvtSecurity  0.8148 0.1852
+  Surveillance 0.7870 0.2130
+                   0      1
+  Anxious     0.7639 0.2361
+  AtRisk      0.7315 0.2685
+  ChangesVibe 0.4352 0.5648
+  Indifferent 0.6991 0.3009
+  Safe        0.6620 0.3380
+  Watched     0.5556 0.4444

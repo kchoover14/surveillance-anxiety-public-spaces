@@ -1,0 +1,61 @@
+Physical******************************
+Analysis of Deviance Table (Type II tests)
+
+Response: Physical
+           LR Chisq Df Pr(>Chisq)
+Sex            2.46  1       0.12
+Experience     4.17  2       0.12
+SexOrient      0.23  1       0.63
+
+CrowdViolence******************************
+Analysis of Deviance Table (Type II tests)
+
+Response: CrowdViolence
+           LR Chisq Df Pr(>Chisq)   
+Sex            8.15  1     0.0043 **
+Experience     6.37  2     0.0413 * 
+SexOrient      0.01  1     0.9228   
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Sexual******************************
+
+Analysis of Deviance Table (Type II tests)
+
+Response: Sexual
+           LR Chisq Df    Pr(>Chisq)    
+Sex            38.1  1 0.00000000068 ***
+Experience      2.3  2          0.31    
+SexOrient       0.3  1          0.60    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Terrorism******************************
+Analysis of Deviance Table (Type II tests)
+
+Response: Terrorism
+           LR Chisq Df Pr(>Chisq)   
+Sex            9.53  1      0.002 **
+Experience     0.09  2      0.955   
+SexOrient      4.33  1      0.037 * 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Police******************************
+Analysis of Deviance Table (Type II tests)
+
+Response: Police
+           LR Chisq Df Pr(>Chisq)
+Sex           0.001  1       0.98
+Experience    2.384  2       0.30
+SexOrient     1.337  1       0.25
+
+Uwanted Security******************************
+Analysis of Deviance Table (Type II tests)
+
+Response: UnwantedSecurity
+           LR Chisq Df Pr(>Chisq)
+Sex           0.221  1       0.64
+Experience    2.457  2       0.29
+SexOrient     0.797  1       0.37
+

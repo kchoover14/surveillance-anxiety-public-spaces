@@ -1,0 +1,148 @@
+**************Notice Surv******************
+ Family: cumulative 
+  Links: mu = logit; disc = identity 
+Formula: NoticeSurvn ~ Sex + Experience + SexOrient 
+   Data: surveillance (Number of observations: 204) 
+Samples: 4 chains, each with iter = 2000; warmup = 1000; thin = 1;
+         total post-warmup samples = 4000
+
+Population-Level Effects: 
+               Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+Intercept[1]      -1.65      0.29    -2.23    -1.10 1.00     3472     2617
+Intercept[2]       1.44      0.29     0.90     2.03 1.00     5031     3418
+SexMale           -0.16      0.31    -0.76     0.43 1.00     4312     2933
+Experience.L       0.26      0.27    -0.27     0.79 1.00     4657     3394
+Experience.Q       0.26      0.26    -0.23     0.76 1.00     4624     3312
+SexOrientLGBQA     0.24      0.40    -0.55     1.04 1.00     4452     2492
+
+Family Specific Parameters: 
+     Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+disc     1.00      0.00     1.00     1.00 1.00     4000     4000
+
+Samples were drawn using sampling(NUTS). For each parameter, Bulk_ESS
+and Tail_ESS are effective sample size measures, and Rhat is the potential
+scale reduction factor on split chains (at convergence, Rhat = 1).
+
+***************NoticeIncSurv*****************
+Analysis of Deviance Table (Type II tests)
+
+Response: NoticeChangeSurvn
+           LR Chisq Df Pr(>Chisq)  
+Sex            0.86  1      0.354  
+Experience     5.42  2      0.066 .
+SexOrient      0.99  1      0.319  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+# A tibble: 5 x 5
+  term           estimate std.error statistic p.value
+  <chr>             <dbl>     <dbl>     <dbl>   <dbl>
+1 (Intercept)     -0.223      0.258   -0.864   0.388 
+2 SexMale          0.283      0.306    0.926   0.354 
+3 Experience.L     0.623      0.277    2.25    0.0242
+4 Experience.Q    -0.0221     0.261   -0.0848  0.932 
+5 SexOrientLGBQA   0.394      0.398    0.989   0.322 
+
+                  2.5 % 97.5 %
+(Intercept)    -0.73465 0.2809
+SexMale        -0.31639 0.8859
+Experience.L    0.08719 1.1762
+Experience.Q   -0.53742 0.4893
+SexOrientLGBQA -0.37705 1.1930
+
+**************NeedMoreLess******************
+ Family: cumulative 
+  Links: mu = logit; disc = identity 
+Formula: NeedMoreLessn ~ Sex + Experience + SexOrient 
+   Data: surveillance (Number of observations: 203) 
+Samples: 4 chains, each with iter = 2000; warmup = 1000; thin = 1;
+         total post-warmup samples = 4000
+
+Population-Level Effects: 
+               Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+Intercept[1]      -2.94      0.36    -3.68    -2.24 1.00     3071     2802
+Intercept[2]       0.85      0.27     0.33     1.39 1.00     4546     3720
+SexMale           -0.86      0.33    -1.51    -0.24 1.00     4481     3230
+Experience.L      -0.44      0.28    -0.99     0.11 1.00     5115     3291
+Experience.Q      -0.05      0.27    -0.58     0.48 1.00     4808     2789
+SexOrientLGBQA    -0.23      0.41    -1.02     0.55 1.00     4852     3002
+
+Family Specific Parameters: 
+     Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+disc     1.00      0.00     1.00     1.00 1.00     4000     4000
+
+Samples were drawn using sampling(NUTS). For each parameter, Bulk_ESS
+and Tail_ESS are effective sample size measures, and Rhat is the potential
+scale reduction factor on split chains (at convergence, Rhat = 1).
+
+****************Inclined****************
+ Family: cumulative 
+  Links: mu = logit; disc = identity 
+Formula: IntroSurvInclineAttendn ~ Sex + Experience + SexOrient 
+   Data: surveillance (Number of observations: 202) 
+Samples: 4 chains, each with iter = 2000; warmup = 1000; thin = 1;
+         total post-warmup samples = 4000
+
+Population-Level Effects: 
+               Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+Intercept[1]      -1.23      0.28    -1.78    -0.70 1.00     4035     3272
+Intercept[2]       1.99      0.32     1.39     2.62 1.00     5151     3334
+SexMale           -0.60      0.31    -1.21     0.01 1.00     4357     3129
+Experience.L      -0.61      0.27    -1.14    -0.07 1.00     4920     3273
+Experience.Q       0.01      0.25    -0.48     0.50 1.00     4395     3173
+SexOrientLGBQA    -0.50      0.38    -1.23     0.22 1.00     4469     3383
+
+Family Specific Parameters: 
+     Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+disc     1.00      0.00     1.00     1.00 1.00     4000     4000
+
+Samples were drawn using sampling(NUTS). For each parameter, Bulk_ESS
+and Tail_ESS are effective sample size measures, and Rhat is the potential
+scale reduction factor on split chains (at convergence, Rhat = 1).
+
+*************Declined*******************
+ Family: cumulative 
+  Links: mu = logit; disc = identity 
+Formula: DeclineUnsafen ~ Sex + Experience + SexOrient 
+   Data: surveillance (Number of observations: 195) 
+Samples: 4 chains, each with iter = 2000; warmup = 1000; thin = 1;
+         total post-warmup samples = 4000
+
+Population-Level Effects: 
+               Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+Intercept[1]       1.19      0.32     0.59     1.82 1.00     5243     3419
+Intercept[2]       2.63      0.43     1.83     3.49 1.00     4971     3569
+SexMale           -1.21      0.45    -2.11    -0.32 1.00     4983     3016
+Experience.L      -0.15      0.41    -0.95     0.64 1.00     5235     3034
+Experience.Q      -0.12      0.37    -0.84     0.61 1.00     5427     3545
+SexOrientLGBQA     0.00      0.56    -1.14     1.04 1.00     4940     3034
+
+Family Specific Parameters: 
+     Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+disc     1.00      0.00     1.00     1.00 1.00     4000     4000
+
+Samples were drawn using sampling(NUTS). For each parameter, Bulk_ESS
+and Tail_ESS are effective sample size measures, and Rhat is the potential
+scale reduction factor on split chains (at convergence, Rhat = 1).
+
+**************correlation between noticing questions******************
+   
+     1  2
+  1 29  5
+  2 62 75
+  3  8 35
+   
+         1      2
+  1 0.8529 0.1471
+  2 0.4526 0.5474
+  3 0.1860 0.8140
+
+	Kendall's rank correlation tau
+
+data:  surveillance$NoticeSurvn and surveillance$NoticeChangeSurvn
+z = 5.7, p-value = 0.00000001
+alternative hypothesis: true tau is not equal to 0
+sample estimates:
+   tau 
+0.3771 
+

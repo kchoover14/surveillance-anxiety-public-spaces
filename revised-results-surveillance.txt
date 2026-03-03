@@ -1,0 +1,174 @@
+************** NOTICE SURVEILLANCE ****************
+ Family: cumulative 
+  Links: mu = logit 
+Formula: NoticeSurvn ~ Sex + Experience + SexOrient 
+   Data: surveillance (Number of observations: 205) 
+  Draws: 4 chains, each with iter = 2000; warmup = 1000; thin = 1;
+         total post-warmup draws = 4000
+
+Regression Coefficients:
+               Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS
+Intercept[1]      -1.68      0.29    -2.26    -1.14 1.00     3647
+Intercept[2]       1.41      0.28     0.91     1.98 1.00     4424
+SexMale           -0.18      0.30    -0.78     0.41 1.00     5083
+Experience.L       0.21      0.28    -0.33     0.75 1.00     4618
+Experience.Q       0.29      0.26    -0.22     0.79 1.00     4467
+SexOrientLGBQA     0.31      0.40    -0.48     1.09 1.00     5287
+               Tail_ESS
+Intercept[1]       2943
+Intercept[2]       3588
+SexMale            2719
+Experience.L       3109
+Experience.Q       2888
+SexOrientLGBQA     2454
+
+Further Distributional Parameters:
+     Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+disc     1.00      0.00     1.00     1.00   NA       NA       NA
+
+Draws were sampled using sampling(NUTS). For each parameter, Bulk_ESS
+and Tail_ESS are effective sample size measures, and Rhat is the potential
+scale reduction factor on split chains (at convergence, Rhat = 1).
+
+************** NOTICE INCREASE IN SURVEILLANCE ****
+Analysis of Deviance Table (Type II tests)
+
+Response: NoticeChangeSurvn
+           LR Chisq Df Pr(>Chisq)  
+Sex            0.76  1      0.385  
+Experience     5.01  2      0.082 .
+SexOrient      1.30  1      0.254  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+# A tibble: 5 × 5
+  term           estimate std.error statistic p.value
+  <chr>             <dbl>     <dbl>     <dbl>   <dbl>
+1 (Intercept)    -0.204       0.257  -0.793    0.428 
+2 SexMale         0.265       0.305   0.869    0.385 
+3 Experience.L    0.591       0.274   2.15     0.0312
+4 Experience.Q    0.00161     0.260   0.00619  0.995 
+5 SexOrientLGBQA  0.447       0.396   1.13     0.259 
+                  2.5 % 97.5 %
+(Intercept)    -0.71362 0.2985
+SexMale        -0.33339 0.8670
+Experience.L    0.05856 1.1388
+Experience.Q   -0.51119 0.5111
+SexOrientLGBQA -0.31823 1.2442
+
+************** NEED MORE OR LESS SURVEILLANCE ******
+ Family: cumulative 
+  Links: mu = logit 
+Formula: NeedMoreLessn ~ Sex + Experience + SexOrient 
+   Data: surveillance (Number of observations: 204) 
+  Draws: 4 chains, each with iter = 2000; warmup = 1000; thin = 1;
+         total post-warmup draws = 4000
+
+Regression Coefficients:
+               Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS
+Intercept[1]      -2.85      0.36    -3.58    -2.18 1.00     2694
+Intercept[2]       0.87      0.27     0.36     1.41 1.00     4366
+SexMale           -0.81      0.33    -1.46    -0.15 1.00     3959
+Experience.L      -0.37      0.28    -0.93     0.17 1.00     4625
+Experience.Q      -0.09      0.28    -0.63     0.45 1.00     4391
+SexOrientLGBQA    -0.33      0.40    -1.10     0.44 1.00     4727
+               Tail_ESS
+Intercept[1]       2667
+Intercept[2]       3535
+SexMale            2853
+Experience.L       3087
+Experience.Q       2807
+SexOrientLGBQA     3186
+
+Further Distributional Parameters:
+     Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+disc     1.00      0.00     1.00     1.00   NA       NA       NA
+
+Draws were sampled using sampling(NUTS). For each parameter, Bulk_ESS
+and Tail_ESS are effective sample size measures, and Rhat is the potential
+scale reduction factor on split chains (at convergence, Rhat = 1).
+
+************** INCLINED TO ATTEND IF SURVEILLANCE **
+ Family: cumulative 
+  Links: mu = logit 
+Formula: IntroSurvInclineAttendn ~ Sex + Experience + SexOrient 
+   Data: surveillance (Number of observations: 203) 
+  Draws: 4 chains, each with iter = 2000; warmup = 1000; thin = 1;
+         total post-warmup draws = 4000
+
+Regression Coefficients:
+               Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS
+Intercept[1]      -1.20      0.28    -1.77    -0.67 1.00     4290
+Intercept[2]       2.01      0.33     1.38     2.67 1.00     5175
+SexMale           -0.57      0.31    -1.19     0.02 1.00     4622
+Experience.L      -0.56      0.27    -1.09    -0.03 1.00     4205
+Experience.Q      -0.03      0.26    -0.55     0.47 1.00     4386
+SexOrientLGBQA    -0.58      0.40    -1.34     0.16 1.00     4627
+               Tail_ESS
+Intercept[1]       2619
+Intercept[2]       3227
+SexMale            2404
+Experience.L       3312
+Experience.Q       3157
+SexOrientLGBQA     3259
+
+Further Distributional Parameters:
+     Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+disc     1.00      0.00     1.00     1.00   NA       NA       NA
+
+Draws were sampled using sampling(NUTS). For each parameter, Bulk_ESS
+and Tail_ESS are effective sample size measures, and Rhat is the potential
+scale reduction factor on split chains (at convergence, Rhat = 1).
+
+************** DECLINED TO ATTEND -- FELT UNSAFE ***
+ Family: cumulative 
+  Links: mu = logit 
+Formula: DeclineUnsafen ~ Sex + Experience + SexOrient 
+   Data: surveillance (Number of observations: 196) 
+  Draws: 4 chains, each with iter = 2000; warmup = 1000; thin = 1;
+         total post-warmup draws = 4000
+
+Regression Coefficients:
+               Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS
+Intercept[1]       1.22      0.33     0.59     1.88 1.00     5536
+Intercept[2]       2.67      0.45     1.82     3.59 1.00     5334
+SexMale           -1.17      0.46    -2.09    -0.28 1.00     4601
+Experience.L      -0.12      0.42    -0.92     0.73 1.00     4953
+Experience.Q      -0.15      0.37    -0.86     0.59 1.00     4898
+SexOrientLGBQA    -0.02      0.54    -1.13     1.00 1.00     4546
+               Tail_ESS
+Intercept[1]       3235
+Intercept[2]       3380
+SexMale            2879
+Experience.L       3129
+Experience.Q       3243
+SexOrientLGBQA     2890
+
+Further Distributional Parameters:
+     Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+disc     1.00      0.00     1.00     1.00   NA       NA       NA
+
+Draws were sampled using sampling(NUTS). For each parameter, Bulk_ESS
+and Tail_ESS are effective sample size measures, and Rhat is the potential
+scale reduction factor on split chains (at convergence, Rhat = 1).
+
+************** CORRELATION -- NOTICING QUESTIONS ***
+   
+     1  2
+  1 29  5
+  2 62 75
+  3  8 35
+   
+         1      2
+  1 0.8529 0.1471
+  2 0.4526 0.5474
+  3 0.1860 0.8140
+
+	Kendall's rank correlation tau
+
+data:  surveillance$NoticeSurvn_n and surveillance$NoticeChangeSurvn_n
+z = 5.7, p-value = 0.00000001
+alternative hypothesis: true tau is not equal to 0
+sample estimates:
+   tau 
+0.3771 
+

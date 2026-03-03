@@ -1,0 +1,55 @@
+Police******************************
+Weighted Means
+   1-2    3-5     6+ 
+0.2979 0.2500 0.3265 
+
+Female   Male 
+0.2857 0.2880 
+
+Heterosexual        LGBQA 
+      0.2690       0.3953 
+
+Unwanted Security******************************
+Weighted Means
+   1-2    3-5     6+ 
+0.3830 0.4559 0.5102 
+
+Female   Male 
+0.4286 0.4640 
+
+Heterosexual        LGBQA 
+      0.4386       0.5349 
+
+Sexual******************************
+Weighted Means
+   1-2    3-5     6+ 
+0.4681 0.3676 0.2347 
+
+Female   Male 
+0.5833 0.1360 
+
+Heterosexual        LGBQA 
+      0.2807       0.5116 
+
+Terrorism******************************
+Weighted Means
+   1-2    3-5     6+ 
+0.2553 0.2353 0.2041 
+
+Female   Male 
+0.3452 0.1440 
+
+Heterosexual        LGBQA 
+      0.1871       0.3953 
+
+CrowdViolence******************************
+Weighted Means
+   1-2    3-5     6+ 
+0.4681 0.4412 0.2551 
+
+Female   Male 
+  0.50   0.28 
+
+Heterosexual        LGBQA 
+      0.3567       0.4419 
+
