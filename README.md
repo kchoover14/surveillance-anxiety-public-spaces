@@ -40,7 +40,6 @@ revised-annals-fig-rc-stacked.png    # 2020: ranked choice stacked bar
 revised-annals-fig-rc-dot.png        # 2020: ranked choice mean rank by gender
 revised-annals-fig-rc-heat.png       # 2020: ranked choice heatmap
 
-revised-sfig-ppcheck-*.png           # supplemental: posterior predictive checks
 revised-results-*.txt                # model results and fit checks
 
 renv.lock                            # R environment lockfile
